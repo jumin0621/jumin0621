@@ -1,4 +1,7 @@
-## Hi there 👋
+## 신주네이야기 👋
+
+
+![jumin0621's github stats](https://github-readme-stats.vercel.app/api?username=jumin0621&show_icons=true&theme=default&cache_seconds=1800)
 
 <!--
 **jumin0621/jumin0621** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
