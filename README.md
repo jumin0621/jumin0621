@@ -1,10 +1,11 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=220&section=header&text=신주네이야기&fontColor=d6ace6&fontSize=50&&fontAlignY=38&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=220&section=header&text=신주네이야기&fontColor=d6ace6&fontSize=50&&fontAlignY=38&animation=blinking)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jumin0621&theme=default)
 
 ## 신주네이야기 👋
 
 
 ![footer](https://capsule-render.vercel.app/api?type=wave&color=auto&height=118&section=footer&animation=fadeIn)
+
 <!--
 **jumin0621/jumin0621** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
