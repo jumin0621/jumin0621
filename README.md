@@ -4,7 +4,7 @@
 
 ## 신주네 이야기보따리에 오신 것을 환영합니다.
 
-### 가운데 정렬이 안되네.. 안타깝다22
+### 가운데 정렬이 안되네.. 안타깝다333
 
 <!-- type: wave, egg, shark, slice, soft, rounded -->
 <!-- animaint: fadeIn, scaleIn, blink, blinking, twinkling -->
