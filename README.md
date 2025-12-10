@@ -11,9 +11,7 @@
 ---
 
 ## 🔍 Professional Summary
-- 화면 구현 이전에 UI 구조를 먼저 설계합니다.
 - 재사용성과 유지보수를 고려한 마크업을 지향합니다.
-- 서버 API 구조를 이해한 상태에서 프론트엔드 로직을 구성합니다.
 - 기획 변경과 요구사항 수정에 유연하게 대응할 수 있는 구조를 선호합니다.
 
 ---
@@ -24,45 +22,77 @@
 - **HTML**  
   시맨틱 마크업을 기반으로 의미 있는 구조를 작성합니다.
 - **CSS**  
-  Flex, Grid를 활용한 반응형 레이아웃과 예측 가능한 스타일 구조를 지향합니다.
+  Flex, Grid를 활용한 반응형 레이아웃과 예측 가능한 스타일 구조를 지향합니다.<br />
+  필요시 CSS프레임워크 (Bootstrap / Tailwind) 사용 가능합니다.
 - **JavaScript**  
-  DOM 기반 UI 제어, 이벤트 처리, AJAX 통신 경험이 있습니다.
+  DOM 기반 UI 제어, 이벤트 처리, AJAX 통신등 필요시 사용합니다.
 - **React**  
-  리액트 나중에 배우면 내용 추가할 예정.
-
-### Backend
+  이제 리액트 들어가서 배우면 이것도 사용가능합니다.
+  
+### Backend Understanding
 - **Java**  
-  MVC구조를 이해하고 있으며, SI 및 SM 경험이 있어 소통이 원활합니다.
+  MVC 구조를 이해하고 프론트엔드 연계 개발이 가능합니다.
 - **Oracle**  
-  기본 SQL (CRUD), 조인 쿼리 작성 경험이 있습니다.
+  기본 SQL (CRUD) 작성, 조인, PL/SQL 쿼리 작성 경험이 있습니다.
 - **iBATIS / MyBatis**  
   SQL 매핑 구조를 이해하고 데이터 흐름을 파악할 수 있습니다.
 
 > 백엔드 설계나 아키텍처보다는  
-> **프론트엔드 구현을 위한 Skill up 에 집중하고 있습니다.**
+> **프론트엔드 구현을 위한 Skill Up에 초점을 맞추고 있습니다.**
 
 ---
 
 ## 🧠 Frontend Development Philosophy
-- 화면은 결과보다 **구조가 먼저** 라고 생각합니다.
-- CSS는 빠르게 작성하기보다 **안전하게 유지되는 구조**를 우선합니다.
-- JavaScript는 UI 흐름을 단순화하기 위한 수단으로 사용합니다.
+- 화면은 결과보다 **구조가 먼저**라고 생각합니다.
+- CSS는 빠른 구현보다 **유지 가능한 구조**가 우선이라고 생각합니다.
+- JavaScript는 UI 흐름을 단순하게 만드는 방향으로 사용합니다.
 
 ---
 
 ## 🤝 Collaboration
 - 디자이너 시안을 코드 구조로 해석하여 구현할 수 있습니다. (figma)
-- 백엔드 개발 경험이 있어 백엔드 개발자와 소통이 원활합니다.
+- 백엔드 개발자와 원활한 소통이 가능합니다.
 
 ---
 
 ## 🔗 GitHub
+<a href="https://github.com/jumin0621" target="_blank" rel="noopener noreferrer">
 https://github.com/jumin0621
+</a>
 
 ---
 
 ## 📬 Contact
-- 📧 Email: punima0477@gmail.com
-- 📝 Blog: <a href="https://blog.naver.com/sj__story" target="_blank" rel="noopener noreferrer">Blog</a>
-- 📷 Instagram: <a href="https://www.instagram.com/jumin0621" target="_blank" rel="noopener noreferrer">Instagram</a>
-- ▶️ YouTube: <a href="https://www.youtube.com/@sj_gameover" target="_blank" rel="noopener noreferrer">YouTube</a>
+
+<p>
+  📧 Email:
+  <a href="mailto:punima0477@gmail.com">
+    punima0477@gmail.com
+  </a>
+</p>
+
+<p>
+📝 Blog:
+  <a href="https://blog.naver.com/sj__story" target="_blank" rel="noopener noreferrer">
+  https://blog.naver.com/sj__story
+  </a>
+</p>
+
+<p>
+  📷 Instagram:
+  <a href="https://www.instagram.com/jumin0621" target="_blank" rel="noopener noreferrer">
+  https://www.instagram.com/jumin0621
+  </a>
+</p>
+
+<p>
+  ▶️ YouTube:
+  <a href="https://www.youtube.com/@sj_gameover" target="_blank" rel="noopener noreferrer">
+  https://www.youtube.com/@sj_gameover
+  </a>
+</p>
+
+---
+
+> 프론트엔드 개발을 중심으로,  
+> 서비스 화면의 완성도를 책임지는 역할을 지향합니다.
