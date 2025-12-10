@@ -1,30 +1,68 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&section=header&text=Sj's%20Story&fontColor=d6ace6&fontSize=50&&fontAlignY=28&animation=twinkling)
+<h1 align="center">SJ's Profile</h1>
+<p align="center">
+  Frontend Developer · UI Engineer
+</p>
 
-# 신주네이야기
+<p align="center">
+  화면 구조와 사용자 흐름을 중심으로 생각하며,<br/>
+  서버와 데이터 흐름을 이해하고 협업하는 프론트엔드 개발자입니다.
+</p>
 
-## 신주네 이야기보따리에 오신 것을 환영합니다.
+---
 
-### 가운데 정렬이 안되네.. 안타깝다333
+## 🔍 Professional Summary
+- 화면 구현 이전에 UI 구조를 먼저 설계합니다.
+- 재사용성과 유지보수를 고려한 마크업을 지향합니다.
+- 서버 API 구조를 이해한 상태에서 프론트엔드 로직을 구성합니다.
+- 기획 변경과 요구사항 수정에 유연하게 대응할 수 있는 구조를 선호합니다.
 
-<!-- type: wave, egg, shark, slice, soft, rounded -->
-<!-- animaint: fadeIn, scaleIn, blink, blinking, twinkling -->
-<!-- &파라미터: type, color, section, height, text, fontColor, fontSize, fontAlign, fontAlignY, animation, desc, descSize, descAlign/descAlignY, rotate, storke, strokeWidth, reversal -->
-<!-- &파라미터: 모양, 배경색, 섹션, 높이(기본120), %20, ffffff, 글씨크기, 가로위치(50), 세로위치(50), 애니메이션, 부제목, 부제목크기, 부제목위치 가로/세로, 회전, 테두리색, 테두리두께, true/좌우변전 -->
+---
 
-![footer](https://capsule-render.vercel.app/api?type=slice&reversal=true&color=auto&height=118&section=footer&animation=fadeIn)
+## 🛠 Core Skills
 
-<!--
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jumin0621&theme=default)
-**jumin0621/jumin0621** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Frontend
+- **HTML**  
+  시맨틱 마크업을 기반으로 의미 있는 구조를 작성합니다.
+- **CSS**  
+  Flex, Grid를 활용한 반응형 레이아웃과 예측 가능한 스타일 구조를 지향합니다.
+- **JavaScript**  
+  DOM 기반 UI 제어, 이벤트 처리, AJAX 통신 경험이 있습니다.
+- **React**  
+  리액트 나중에 배우면 내용 추가할 예정.
 
-Here are some ideas to get you started:
+### Backend
+- **Java**  
+  MVC구조를 이해하고 있으며, SI 및 SM 경험이 있어 소통이 원활합니다.
+- **Oracle**  
+  기본 SQL (CRUD), 조인 쿼리 작성 경험이 있습니다.
+- **iBATIS / MyBatis**  
+  SQL 매핑 구조를 이해하고 데이터 흐름을 파악할 수 있습니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> 백엔드 설계나 아키텍처보다는  
+> **프론트엔드 구현을 위한 Skill up 에 집중하고 있습니다.**
+
+---
+
+## 🧠 Frontend Development Philosophy
+- 화면은 결과보다 **구조가 먼저** 라고 생각합니다.
+- CSS는 빠르게 작성하기보다 **안전하게 유지되는 구조**를 우선합니다.
+- JavaScript는 UI 흐름을 단순화하기 위한 수단으로 사용합니다.
+
+---
+
+## 🤝 Collaboration
+- 디자이너 시안을 코드 구조로 해석하여 구현할 수 있습니다. (figma)
+- 백엔드 개발 경험이 있어 백엔드 개발자와 소통이 원활합니다.
+
+---
+
+## 🔗 GitHub
+https://github.com/jumin0621
+
+---
+
+## 📬 Contact
+- 📧 Email: punima0477@gmail.com
+- 📝 Blog: <a href="https://blog.naver.com/sj__story" target="_blank" rel="noopener noreferrer">Blog</a>
+- 📷 Instagram: <a href="https://www.instagram.com/jumin0621" target="_blank" rel="noopener noreferrer">Instagram</a>
+- ▶️ YouTube: <a href="https://www.youtube.com/@sj_gameover" target="_blank" rel="noopener noreferrer">YouTube</a>
