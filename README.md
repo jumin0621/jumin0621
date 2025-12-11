@@ -18,6 +18,47 @@
 
 ## 🛠 Core Skills
 
+<table align="center">
+  <tr>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45"><br>
+      <sub>Java</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"><br>
+      <sub>JavaScript</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"><br>
+      <sub>HTML</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"><br>
+      <sub>CSS</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="45"><br>
+      <sub>Oracle</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://github.com/user-attachments/assets/05a9c515-e6d2-4784-ad81-382f24b43dee" width="45"><br>
+      <sub>MyBatis</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45"><br>
+      <sub>Bootstrap</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45"><br>
+      <sub>React</sub>
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45"><br>
+      <sub>Tailwind</sub>
+    </td>
+  </tr>
+</table>
+
 ### Frontend
 - **HTML**  
   시맨틱 마크업을 기반으로 의미 있는 구조를 작성합니다.
