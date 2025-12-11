@@ -1,8 +1,6 @@
 <h1 align="center">SJ's Profile</h1>
 <p align="center">
-  Frontend Developer · UI Engineer
-</p>
-
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=4000&pause=1500&color=1A669A&background=922D6A00&center=true&vCenter=true&width=700&lines=%22Frontend+Developer+who+understand+back-end%22;communicate+seamlessly+with+the+Backend+Developer+" alt="Typing SVG" /></a>
 <p align="center">
   화면 구조와 사용자 흐름을 중심으로 생각하며,<br/>
   서버와 데이터 흐름을 이해하고 협업하는 프론트엔드 개발자입니다.
@@ -18,46 +16,9 @@
 
 ## 🛠 Core Skills
 
-<table align="center">
-  <tr>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45"><br>
-      <sub>Java</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"><br>
-      <sub>JavaScript</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"><br>
-      <sub>HTML</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"><br>
-      <sub>CSS</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="45"><br>
-      <sub>Oracle</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://github.com/user-attachments/assets/05a9c515-e6d2-4784-ad81-382f24b43dee" width="45"><br>
-      <sub>MyBatis</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45"><br>
-      <sub>Bootstrap</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45"><br>
-      <sub>React</sub>
-    </td>
-    <td align="center" width="80">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45"><br>
-      <sub>Tailwind</sub>
-    </td>
-  </tr>
-</table>
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="45"> | <img src="https://github.com/user-attachments/assets/05a9c515-e6d2-4784-ad81-382f24b43dee" width="45"> | <img src="https://github.com/user-attachments/assets/23fe1b93-5fa4-480e-8739-9b687ccdef0d" width="45"> | <img src="https://github.com/user-attachments/assets/4d92c930-9113-4125-a5e0-6abd60ea1ccc" width="45">
+|:-----:|:----:|:---------:|:--------:|:----------:|:-----:|:----:|:-------:|:------:|:---:|:------:|
+| HTML5 | CSS3 | Bootstrap | Tailwind | JavaScript | React | Java | MyBatis | Oracle | Jsp | Spring |
 
 ### Frontend
 - **HTML**  
@@ -69,6 +30,7 @@
   DOM 기반 UI 제어, 이벤트 처리, AJAX 통신등 필요시 사용합니다.
 - **React**  
   이제 리액트 들어가서 배우면 이것도 사용가능합니다.
+
   
 ### Backend Understanding
 - **Java**  
