@@ -16,9 +16,9 @@
 
 ## 🛠 Core Skills
 
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="45"> | <img src="https://github.com/user-attachments/assets/05a9c515-e6d2-4784-ad81-382f24b43dee" width="45"> | <img src="https://github.com/user-attachments/assets/23fe1b93-5fa4-480e-8739-9b687ccdef0d" width="45"> | <img src="https://github.com/user-attachments/assets/4d92c930-9113-4125-a5e0-6abd60ea1ccc" width="45">
-|:-----:|:----:|:---------:|:--------:|:----------:|:-----:|:----:|:-------:|:------:|:---:|:------:|
-| HTML5 | CSS3 | Bootstrap | Tailwind | JavaScript | React | Java | MyBatis | Oracle | Jsp | Spring |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45"> | 
+|:-----:|:----:|:---------:|:--------:|:----------:|:-----:|
+| HTML5 | CSS3 | Bootstrap | Tailwind | JavaScript | React | 
 
 ### Frontend
 - **HTML**  
