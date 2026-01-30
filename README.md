@@ -1,6 +1,6 @@
 <h1 align="center">SJ's Profile</h1>
 <p align="center">
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=4000&pause=1500&color=1A669A&background=922D6A00&center=true&vCenter=true&width=700&lines=%22Frontend+Developer+who+understand+back-end%22;communicate+seamlessly+with+the+Backend+Developer+" alt="Typing SVG" /></a>
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&duration=4000&pause=1500&color=1A669A&background=922D6A00&center=true&vCenter=true&width=700&lines=%22Frontend+Developer+who+understand+backend%22;communicate+seamlessly+with+the+Backend+Developer+" alt="Typing SVG" /></a>
 <p align="center">
   화면 구조와 사용자 흐름을 중심으로 생각하며,<br/>
   서버와 데이터 흐름을 이해하고 협업하는 프론트엔드 개발자입니다.
