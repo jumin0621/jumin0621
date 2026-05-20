@@ -1,95 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Åð±Ù ÈÄ 30ºÐ, AI·Î ÀÏ »¡¸® ³¡³»±â. Á÷ÀåÀÎ¿ë ÀÚµ¿È­ ·çÆ¾¡¤ÇÁ·ÒÇÁÆ® ¹«·á ½ÃÀÛÆÑ." />
-  <meta name="theme-color" content="#0B1020" />
-  <title>Åð±ÙÈÄ AI½ÇÇè½Ç | ¹«·á ½ÃÀÛÆÑ</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="assets/profile.png" type="image/png" />
-</head>
-<body>
-  <div class="bg-glow" aria-hidden="true"></div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="í‡´ê·¼ í›„ 30ë¶„, AIë¡œ ì¼ ë¹¨ë¦¬ ëë‚´ê¸°. ì§ìž¥ì¸ìš© ìžë™í™” ë£¨í‹´Â·í”„ë¡¬í”„íŠ¸ ë¬´ë£Œ ì‹œìž‘íŒ©."
+		/>
+		<meta name="theme-color" content="#0B1020" />
+		<title>í‡´ê·¼í›„ AIì‹¤í—˜ì‹¤ | ë¬´ë£Œ ì‹œìž‘íŒ©</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="icon" href="assets/profile.png" type="image/png" />
+	</head>
+	<body>
+		<div class="bg-glow" aria-hidden="true"></div>
 
-  <main class="page">
-    <header class="profile">
-      <div class="avatar-wrap">
-        <img src="assets/profile.png" alt="Åð±ÙÈÄ AI½ÇÇè½Ç ÇÁ·ÎÇÊ" class="avatar" width="112" height="112" />
-      </div>
-      <p class="eyebrow">After Work AI Lab</p>
-      <h1 class="title">Åð±ÙÈÄ AI½ÇÇè½Ç</h1>
-      <p class="subtitle">Åð±Ù ÈÄ 30ºÐ, AI·Î ÀÏ »¡¸® ³¡³»±â</p>
-      <p class="desc">Á÷ÀåÀÎ¿ë ÀÚµ¿È­ ·çÆ¾¡¤ÇÁ·ÒÇÁÆ®¸¦ ¸ÅÁÖ °øÀ¯ÇÕ´Ï´Ù.</p>
-    </header>
+		<main class="page">
+			<header class="profile">
+				<div class="avatar-wrap">
+					<img
+						src="assets/profile.png"
+						alt="í‡´ê·¼í›„ AIì‹¤í—˜ì‹¤ í”„ë¡œí•„"
+						class="avatar"
+						width="112"
+						height="112"
+					/>
+				</div>
+				<p class="eyebrow">After Work AI Lab</p>
+				<h1 class="title">í‡´ê·¼í›„ AIì‹¤í—˜ì‹¤</h1>
+				<p class="subtitle">í‡´ê·¼ í›„ 30ë¶„, AIë¡œ ì¼ ë¹¨ë¦¬ ëë‚´ê¸°</p>
+				<p class="desc">ì§ìž¥ì¸ìš© ìžë™í™” ë£¨í‹´Â·í”„ë¡¬í”„íŠ¸ë¥¼ ë§¤ì£¼ ê³µìœ í•©ë‹ˆë‹¤.</p>
+			</header>
 
-    <section class="cta-card" aria-labelledby="cta-title">
-      <h2 id="cta-title" class="cta-title">¹«·á ½ÃÀÛÆÑ ¹Þ±â</h2>
-      <p class="cta-text">
-        ÀÎ½ºÅ¸ ÃÖ½Å °Ô½Ã¹°¿¡ ´ñ±Û·Î <strong>¡¸ÅÛÇÃ¸´¡¹</strong>À» ³²±â¸é<br />
-        DMÀ¸·Î ¹«·á ½ÃÀÛÆÑÀ» º¸³»µå¸³´Ï´Ù.
-      </p>
-      <button type="button" class="btn btn-primary" id="copyKeywordBtn" data-keyword="ÅÛÇÃ¸´">
-        ´ñ±Û Å°¿öµå º¹»ç: ÅÛÇÃ¸´
-      </button>
-      <p class="toast" id="toast" role="status" aria-live="polite"></p>
-    </section>
+			<section class="cta-card" aria-labelledby="cta-title">
+				<h2 id="cta-title" class="cta-title">ë¬´ë£Œ ì‹œìž‘íŒ© ë°›ê¸°</h2>
+				<p class="cta-text">
+					ì¸ìŠ¤íƒ€ ìµœì‹  ê²Œì‹œë¬¼ì— ëŒ“ê¸€ë¡œ <strong>ã€Œí…œí”Œë¦¿ã€</strong>ì„ ë‚¨ê¸°ë©´<br />
+					DMìœ¼ë¡œ ë¬´ë£Œ ì‹œìž‘íŒ©ì„ ë³´ë‚´ë“œë¦½ë‹ˆë‹¤.
+				</p>
+				<button
+					type="button"
+					class="btn btn-primary"
+					id="copyKeywordBtn"
+					data-keyword="í…œí”Œë¦¿"
+				>
+					ëŒ“ê¸€ í‚¤ì›Œë“œ ë³µì‚¬: í…œí”Œë¦¿
+				</button>
+				<p class="toast" id="toast" role="status" aria-live="polite"></p>
+			</section>
 
-    <nav class="links" aria-label="¹Ù·Î°¡±â ¸µÅ©">
-      <a
-        class="btn btn-outline"
-        href="https://www.instagram.com/afterwork_ai_lab/"
-        target="_blank"
-        rel="noopener noreferrer"
-        id="instagramLink"
-      >
-        ÀÎ½ºÅ¸±×·¥ ÆÈ·Î¿ì
-      </a>
-      <a class="btn btn-outline" href="#starter-pack">
-        ½ÃÀÛÆÑ ±¸¼º º¸±â
-      </a>
-      <a class="btn btn-outline" href="#routine">
-        30ºÐ ·çÆ¾ ¹Ì¸®º¸±â
-      </a>
-    </nav>
+			<nav class="links" aria-label="ë°”ë¡œê°€ê¸° ë§í¬">
+				<a
+					class="btn btn-outline"
+					href="https://www.instagram.com/afterwork_ai_lab/"
+					target="_blank"
+					rel="noopener noreferrer"
+					id="instagramLink"
+				>
+					ì¸ìŠ¤íƒ€ê·¸ëž¨ íŒ”ë¡œìš°
+				</a>
+				<a class="btn btn-outline" href="#starter-pack">ì‹œìž‘íŒ© êµ¬ì„± ë³´ê¸°</a>
+				<a class="btn btn-outline" href="#routine">30ë¶„ ë£¨í‹´ ë¯¸ë¦¬ë³´ê¸°</a>
+			</nav>
 
-    <section class="panel" id="starter-pack">
-      <h2 class="panel-title">¹«·á ½ÃÀÛÆÑ ±¸¼º</h2>
-      <ul class="check-list">
-        <li>¾÷¹« ¸ÞÀÏ ¿ä¾à ÇÁ·ÒÇÁÆ® 5Á¾</li>
-        <li>È¸ÀÇ·Ï 1ºÐ Á¤¸® ÇÁ·ÒÇÁÆ®</li>
-        <li>ÁÖ°£ º¸°í ÃÊ¾È ÅÛÇÃ¸´</li>
-        <li>Åð±Ù ÈÄ 30ºÐ ·çÆ¾ Ã¼Å©¸®½ºÆ®</li>
-      </ul>
-    </section>
+			<section class="panel" id="starter-pack">
+				<h2 class="panel-title">ë¬´ë£Œ ì‹œìž‘íŒ© êµ¬ì„±</h2>
+				<ul class="check-list">
+					<li>ì—…ë¬´ ë©”ì¼ ìš”ì•½ í”„ë¡¬í”„íŠ¸ 5ì¢…</li>
+					<li>íšŒì˜ë¡ 1ë¶„ ì •ë¦¬ í”„ë¡¬í”„íŠ¸</li>
+					<li>ì£¼ê°„ ë³´ê³  ì´ˆì•ˆ í…œí”Œë¦¿</li>
+					<li>í‡´ê·¼ í›„ 30ë¶„ ë£¨í‹´ ì²´í¬ë¦¬ìŠ¤íŠ¸</li>
+				</ul>
+			</section>
 
-    <section class="panel" id="routine">
-      <h2 class="panel-title">Åð±Ù ÈÄ 30ºÐ ·çÆ¾</h2>
-      <ol class="steps">
-        <li><span>5ºÐ</span> ¿À´Ã ÇÒ ÀÏ 3°³ Á¤¸®</li>
-        <li><span>10ºÐ</span> AI·Î ÃÊ¾È »ý¼º</li>
-        <li><span>10ºÐ</span> »ç¶÷ÀÌ °Ë¼ö¡¤¼öÁ¤</li>
-        <li><span>5ºÐ</span> ³»ÀÏ ÇÒ ÀÏ ¿¹¾à</li>
-      </ol>
-    </section>
+			<section class="panel" id="routine">
+				<h2 class="panel-title">í‡´ê·¼ í›„ 30ë¶„ ë£¨í‹´</h2>
+				<ol class="steps">
+					<li><span>5ë¶„</span> ì˜¤ëŠ˜ í•  ì¼ 3ê°œ ì •ë¦¬</li>
+					<li><span>10ë¶„</span> AIë¡œ ì´ˆì•ˆ ìƒì„±</li>
+					<li><span>10ë¶„</span> ì‚¬ëžŒì´ ê²€ìˆ˜Â·ìˆ˜ì •</li>
+					<li><span>5ë¶„</span> ë‚´ì¼ í•  ì¼ ì˜ˆì•½</li>
+				</ol>
+			</section>
 
-    <section class="panel panel-muted">
-      <h2 class="panel-title">¿î¿µ ¾È³»</h2>
-      <p class="note">
-        º» ÆäÀÌÁö´Â ÀÎ½ºÅ¸±×·¥ ÇÁ·ÎÇÊ ¸µÅ©¿ëÀÔ´Ï´Ù.<br />
-        Á¦ÈÞ ¸µÅ©´Â ÄÜÅÙÃ÷ ¼º°ú¸¦ È®ÀÎÇÑ µÚ ´Ü°èÀûÀ¸·Î Ãß°¡ÇÕ´Ï´Ù.
-      </p>
-    </section>
+			<section class="panel panel-muted">
+				<h2 class="panel-title">ìš´ì˜ ì•ˆë‚´</h2>
+				<p class="note">
+					ë³¸ íŽ˜ì´ì§€ëŠ” ì¸ìŠ¤íƒ€ê·¸ëž¨ í”„ë¡œí•„ ë§í¬ìš©ìž…ë‹ˆë‹¤.<br />
+					ì œíœ´ ë§í¬ëŠ” ì½˜í…ì¸  ì„±ê³¼ë¥¼ í™•ì¸í•œ ë’¤ ë‹¨ê³„ì ìœ¼ë¡œ ì¶”ê°€í•©ë‹ˆë‹¤.
+				</p>
+			</section>
 
-    <footer class="footer">
-      <p>? <span id="year"></span> After Work AI Lab</p>
-      <a href="../privacy.html">°³ÀÎÁ¤º¸ ¾È³»</a>
-    </footer>
-  </main>
+			<footer class="footer">
+				<p>&copy; <span id="year"></span> After Work AI Lab</p>
+				<a href="../privacy.html">ê°œì¸ì •ë³´ ì•ˆë‚´</a>
+			</footer>
+		</main>
 
-  <script src="script.js"></script>
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>

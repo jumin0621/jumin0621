@@ -6,50 +6,52 @@ const copyBtn = document.getElementById("copyKeywordBtn");
 const instagramLink = document.getElementById("instagramLink");
 
 if (yearEl) {
-  yearEl.textContent = String(new Date().getFullYear());
+	yearEl.textContent = String(new Date().getFullYear());
 }
 
 if (instagramLink) {
-  instagramLink.href = `https://www.instagram.com/${INSTAGRAM_HANDLE}/`;
+	instagramLink.href = `https://www.instagram.com/${INSTAGRAM_HANDLE}/`;
 }
 
 function showToast(message) {
-  if (!toastEl) return;
-  toastEl.textContent = message;
-  window.clearTimeout(showToast.timer);
-  showToast.timer = window.setTimeout(() => {
-    toastEl.textContent = "";
-  }, 2200);
+	if (!toastEl) return;
+	toastEl.textContent = message;
+	window.clearTimeout(showToast.timer);
+	showToast.timer = window.setTimeout(() => {
+		toastEl.textContent = "";
+	}, 2200);
 }
 
 async function copyKeyword(keyword) {
-  try {
-    await navigator.clipboard.writeText(keyword);
-    showToast(`¡¸${keyword}¡¹ Å°¿öµå¸¦ º¹»çÇß¾î¿ä. ÀÎ½ºÅ¸ ´ñ±Û¿¡ ºÙ¿©³Ö±â ÇÏ¼¼¿ä.`);
-    return;
-  } catch (_error) {
-    const area = document.createElement("textarea");
-    area.value = keyword;
-    area.setAttribute("readonly", "");
-    area.style.position = "fixed";
-    area.style.left = "-9999px";
-    document.body.appendChild(area);
-    area.select();
-    const ok = document.execCommand("copy");
-    document.body.removeChild(area);
+	try {
+		await navigator.clipboard.writeText(keyword);
+		showToast(
+			`ã€Œ${keyword}ã€ í‚¤ì›Œë“œë¥¼ ë³µì‚¬í–ˆì–´ìš”. ì¸ìŠ¤íƒ€ ëŒ“ê¸€ì— ë¶™ì—¬ë„£ê¸° í•˜ì„¸ìš”.`,
+		);
+		return;
+	} catch (_error) {
+		const area = document.createElement("textarea");
+		area.value = keyword;
+		area.setAttribute("readonly", "");
+		area.style.position = "fixed";
+		area.style.left = "-9999px";
+		document.body.appendChild(area);
+		area.select();
+		const ok = document.execCommand("copy");
+		document.body.removeChild(area);
 
-    if (ok) {
-      showToast(`¡¸${keyword}¡¹ Å°¿öµå¸¦ º¹»çÇß¾î¿ä.`);
-      return;
-    }
-  }
+		if (ok) {
+			showToast(`ã€Œ${keyword}ã€ í‚¤ì›Œë“œë¥¼ ë³µì‚¬í–ˆì–´ìš”.`);
+			return;
+		}
+	}
 
-  showToast("º¹»ç¿¡ ½ÇÆÐÇß¾î¿ä. ´ñ±Û¿¡ ¡¸ÅÛÇÃ¸´¡¹À» Á÷Á¢ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+	showToast("ë³µì‚¬ì— ì‹¤íŒ¨í–ˆì–´ìš”. ëŒ“ê¸€ì— ã€Œí…œí”Œë¦¿ã€ì„ ì§ì ‘ ìž…ë ¥í•´ ì£¼ì„¸ìš”.");
 }
 
 if (copyBtn) {
-  copyBtn.addEventListener("click", () => {
-    const keyword = copyBtn.dataset.keyword || "ÅÛÇÃ¸´";
-    copyKeyword(keyword);
-  });
+	copyBtn.addEventListener("click", () => {
+		const keyword = copyBtn.dataset.keyword || "í…œí”Œë¦¿";
+		copyKeyword(keyword);
+	});
 }
