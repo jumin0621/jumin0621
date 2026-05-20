@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="퇴근후 AI실험실 무료 시작팩 - 업무 메일 프롬프트 5종, 회의록 정리, 주간보고 템플릿, 30분 루틴 체크리스트"
+		/>
+		<meta name="theme-color" content="#0B1020" />
+		<title>무료 시작팩 | 퇴근후 AI실험실</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			.pack-page {
+				width: min(100%, 720px);
+			}
+			.pack-header {
+				margin-bottom: 20px;
+			}
+			.pack-header h1 {
+				margin: 0 0 8px;
+				font-size: 1.5rem;
+			}
+			.pack-header p {
+				margin: 0;
+				color: var(--muted);
+				font-size: 0.94rem;
+			}
+			.pack-nav {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 8px;
+				margin-bottom: 16px;
+			}
+			.pack-nav a {
+				padding: 8px 12px;
+				border-radius: 999px;
+				border: 1px solid var(--border);
+				color: var(--accent-strong);
+				text-decoration: none;
+				font-size: 0.82rem;
+				background: rgba(15, 23, 42, 0.55);
+			}
+			.prompt-box {
+				margin: 0 0 12px;
+				padding: 14px;
+				border-radius: 12px;
+				background: rgba(15, 23, 42, 0.65);
+				border: 1px solid var(--border);
+				white-space: pre-wrap;
+				font-size: 0.88rem;
+				line-height: 1.6;
+				color: #dbe4f6;
+			}
+			.copy-row {
+				display: flex;
+				gap: 8px;
+				flex-wrap: wrap;
+				margin-top: 8px;
+			}
+			.btn-sm {
+				width: auto;
+				min-height: 40px;
+				padding: 8px 14px;
+				font-size: 0.84rem;
+			}
+			.tip {
+				margin: 0 0 12px;
+				font-size: 0.86rem;
+				color: var(--muted);
+			}
+			.back-link {
+				display: inline-block;
+				margin-bottom: 16px;
+				color: var(--accent-strong);
+				text-decoration: none;
+				font-size: 0.9rem;
+			}
+			.back-link:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bg-glow" aria-hidden="true"></div>
+
+		<main class="page pack-page">
+			<a class="back-link" href="index.html">← 메인으로</a>
+
+			<header class="pack-header">
+				<p class="eyebrow">Free Starter Pack</p>
+				<h1>무료 시작팩</h1>
+				<p>복사 버튼으로 바로 ChatGPT/Claude에 붙여넣어 사용하세요.</p>
+			</header>
+
+			<nav class="pack-nav" aria-label="시작팩 목차">
+				<a href="#routine">30분 루틴</a>
+				<a href="#meeting">회의록</a>
+				<a href="#mail">메일 5종</a>
+				<a href="#weekly">주간보고</a>
+				<a href="#check">검수 체크</a>
+			</nav>
+
+			<section class="panel" id="routine">
+				<h2 class="panel-title">퇴근 후 30분 루틴 체크리스트</h2>
+				<p class="tip">
+					완벽보다 매일 반복이 목표입니다. 한 항목이라도 체크하면 성공.
+				</p>
+				<div class="prompt-box" id="text-routine">
+					[퇴근 후 30분 루틴 체크리스트] □ 5분 | 오늘 할 일 3개만 적기 예)
+					보고서 초안 / 메일 답장 / 자료 정리 □ 10분 | AI로 초안 1개 만들기 ※
+					완성 X, 초안 O □ 10분 | 사람 검수 (30초~2분) □ 날짜/기한 맞음 □
+					담당자/고객명 맞음 □ 과장된 약속 없음 □ 5분 | 내일 할 일 1줄 예약 예)
+					"내일 09:30 보고서 초안 검토" 오늘 점수 (1~5): ___ 내일 가장 중요한
+					1가지: _______________
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-routine"
+					>
+						체크리스트 복사
+					</button>
+				</div>
+			</section>
+
+			<section class="panel" id="meeting">
+				<h2 class="panel-title">회의록 1분 정리 프롬프트</h2>
+				<p class="tip">
+					회의 직후 메모 3~10줄을 아래 [회의 메모]에 붙여넣으세요.
+				</p>
+				<div class="prompt-box" id="text-meeting">
+					당신은 실무형 회의록 정리자입니다. 아래 회의 메모를 "실행 가능한
+					기록"으로 정리해주세요. [출력 형식] 1) 결정사항 (bullet, 1줄씩) 2)
+					할일 (담당자 / 기한 포함) 3) 리스크/이슈 (있을 때만) 4) 다음 액션 1줄
+					요약 [규칙] - 없는 내용은 추측해서 쓰지 마세요. - 모호한 표현("검토",
+					"논의")은 구체 행동으로 바꿔주세요. - 너무 길게 쓰지 말고 팀
+					공유용으로 간결하게. [회의 메모] (여기에 붙여넣기)
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-meeting"
+					>
+						프롬프트 복사
+					</button>
+				</div>
+				<p class="tip">
+					출력 예시: [결정] 랜딩 개편 진행 / [할일] A 디자인 시안 수요일 /
+					[리스크] 일정 1주 지연 가능
+				</p>
+			</section>
+
+			<section class="panel" id="mail">
+				<h2 class="panel-title">업무 메일 요약·답장 프롬프트 5종</h2>
+				<p class="tip">
+					공통: 메일 본문을 [원문 메일]에 붙여넣고, 검수 후 발송하세요.
+				</p>
+
+				<h3 class="panel-title">1) 일정·요청 확인 답장</h3>
+				<div class="prompt-box" id="text-mail1">
+					아래 업무 메일을 분석해서 아래 형식으로 정리해주세요. [출력] - 요약
+					(2줄) - 상대 요청사항 - 답장 초안 (공손, 짧게, 4~6문장) - 확인 필요
+					사항 (있을 때만) [규칙] - 날짜/기한은 원문 기준 유지 - 확정되지 않은
+					일정은 "확인 후 회신"으로 표현 [원문 메일] (붙여넣기)
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-mail1"
+					>
+						1번 복사
+					</button>
+				</div>
+
+				<h3 class="panel-title">2) 견적·제안 요청 회신</h3>
+				<div class="prompt-box" id="text-mail2">
+					아래 메일을 바탕으로 견적/제안 요청에 대한 답장 초안을 작성해주세요.
+					[출력] - 요청 핵심 요약 - 답장 초안 (공손, 명확) - 필요한 추가 정보
+					질문 2개 [규칙] - 가격/일정은 임의로 확정하지 말 것 - "검토 후 ○일까지
+					회신" 형태 사용 [원문 메일] (붙여넣기)
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-mail2"
+					>
+						2번 복사
+					</button>
+				</div>
+
+				<h3 class="panel-title">3) 일정 지연·변경 안내</h3>
+				<div class="prompt-box" id="text-mail3">
+					아래 상황을 바탕으로 일정 지연/변경 안내 메일 초안을 작성해주세요.
+					[입력 정보] - 기존 일정: - 변경 일정(예정): - 지연 사유(간단): -
+					상대에게 필요한 조치: [출력] - 제목 3개 후보 - 본문 초안 (사과 1회,
+					변명 과다 X, 대안 1개 포함) [원문/메모] (붙여넣기)
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-mail3"
+					>
+						3번 복사
+					</button>
+				</div>
+
+				<h3 class="panel-title">4) 자료 요청·공유 회신</h3>
+				<div class="prompt-box" id="text-mail4">
+					아래 메일에 대한 자료 요청 회신 초안을 작성해주세요. [출력] - 요청
+					자료 정리 - 회신 초안 (짧고 명확) - 전달 예정 시점 표현
+					(오늘/내일/금요일 오전 등) [규칙] - 첨부/링크가 없으면 "준비 중"으로
+					표현 - 불필요한 장문 금지 [원문 메일] (붙여넣기)
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-mail4"
+					>
+						4번 복사
+					</button>
+				</div>
+
+				<h3 class="panel-title">5) 팔로업(리마인드) 메일</h3>
+				<div class="prompt-box" id="text-mail5">
+					아래 맥락으로 정중한 팔로업(리마인드) 메일 초안을 작성해주세요. [입력]
+					- 이전 요청 내용: - 경과 시간(예: 3일): - 원하는 다음 액션: [출력] -
+					제목 2개 - 본문 초안 (부드럽게, 압박 느낌 X, 5문장 이내) [메모]
+					(붙여넣기)
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-mail5"
+					>
+						5번 복사
+					</button>
+				</div>
+			</section>
+
+			<section class="panel" id="weekly">
+				<h2 class="panel-title">주간 보고 초안 템플릿</h2>
+				<p class="tip">
+					금요일 퇴근 전 10분용. [이번 주 메모]에 bullet로 적고 붙여넣기.
+				</p>
+				<div class="prompt-box" id="text-weekly">
+					당신은 실무형 주간보고 작성 도우미입니다. 아래 메모를 팀 공유용
+					주간보고로 정리해주세요. [출력 형식] 1. 이번 주 핵심 성과 (3개, 수치
+					포함 가능) 2. 진행 중 이슈 (문제/원인/현재 상태) 3. 다음 주 계획
+					(우선순위 1~3) 4. 지원 요청 사항 (있을 때만) [규칙] - 과장 표현 금지 -
+					모호한 표현은 실행 문장으로 변환 - 전체 분량 A4 1/3 이내 [이번 주
+					메모] - - -
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-weekly"
+					>
+						템플릿 복사
+					</button>
+				</div>
+				<div class="prompt-box" id="text-weekly-example">
+					[작성 예시 입력] - 랜딩 시안 1차 완료, 내부 피드백 8건 반영 - API 연동
+					테스트 70% 완료, 오류 2건 남음 - 다음 주: 오류 수정 + QA 1차 [기대
+					출력 예시] 1) 성과: 시안 1차 완료 / 피드백 반영 / API 테스트 70% 2)
+					이슈: API 오류 2건(원인 분석 중) 3) 계획: 오류 수정, QA 1차, 배포 일정
+					재확인 4) 지원: QA 일정 확정 필요
+				</div>
+			</section>
+
+			<section class="panel" id="check">
+				<h2 class="panel-title">AI 결과 검수 20초 체크</h2>
+				<div class="prompt-box" id="text-check">
+					[보내기 전 20초 검수] □ 날짜/기한이 원문과 같은가? □
+					이름/팀/고객사명이 맞는가? □ "확정/완료/반드시" 같은 강한 표현이
+					과한가? □ 첨부/링크 언급이 실제와 맞는가? □ 톤이 너무 딱딱하거나 너무
+					가볍지 않은가? 통과하면 발송 / 1개라도 걸리면 1문장만 수정
+				</div>
+				<div class="copy-row">
+					<button
+						type="button"
+						class="btn btn-primary btn-sm"
+						data-copy-target="text-check"
+					>
+						검수표 복사
+					</button>
+				</div>
+			</section>
+
+			<section class="panel panel-muted">
+				<h2 class="panel-title">사용 순서 추천</h2>
+				<ol class="steps">
+					<li><span>1일차</span> 30분 루틴 체크리스트</li>
+					<li><span>2일차</span> 회의록 프롬프트</li>
+					<li><span>3일차</span> 메일 프롬프트 1~2번</li>
+					<li><span>4일차</span> 주간보고 템플릿</li>
+				</ol>
+				<p class="note" style="margin-top: 12px">
+					인스타:
+					<a
+						href="https://www.instagram.com/afterwork_ai_lab/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>@afterwork_ai_lab</a
+					>
+				</p>
+			</section>
+
+			<p class="toast" id="toast" role="status" aria-live="polite"></p>
+		</main>
+
+		<script>
+			const toastEl = document.getElementById("toast");
+
+			function showToast(message) {
+				if (!toastEl) return;
+				toastEl.textContent = message;
+				clearTimeout(showToast.timer);
+				showToast.timer = setTimeout(() => {
+					toastEl.textContent = "";
+				}, 2000);
+			}
+
+			async function copyText(text) {
+				try {
+					await navigator.clipboard.writeText(text);
+					showToast("복사 완료! AI 채팅에 붙여넣기 하세요.");
+					return true;
+				} catch (_e) {
+					const area = document.createElement("textarea");
+					area.value = text;
+					area.style.position = "fixed";
+					area.style.left = "-9999px";
+					document.body.appendChild(area);
+					area.select();
+					const ok = document.execCommand("copy");
+					document.body.removeChild(area);
+					if (ok) showToast("복사 완료!");
+					else showToast("복사 실패. 직접 드래그해서 복사해주세요.");
+					return ok;
+				}
+			}
+
+			document.querySelectorAll("[data-copy-target]").forEach((btn) => {
+				btn.addEventListener("click", () => {
+					const id = btn.getAttribute("data-copy-target");
+					const box = document.getElementById(id);
+					if (!box) return;
+					copyText(box.textContent.trim());
+				});
+			});
+		</script>
+	</body>
+</html>
