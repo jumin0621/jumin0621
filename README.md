@@ -30,7 +30,7 @@
 - **JavaScript**  
   DOM 기반 UI 제어, 이벤트 처리, AJAX 통신등 필요시 사용합니다.
 - **React**  
-  이제 리액트 들어가서 배우면 이것도 사용가능합니다.
+  React vite 기반 프론트엔드 개발 가능합니다.
 
   
 ### Backend Understanding
@@ -91,7 +91,7 @@ https://github.com/jumin0621
 
 <p>
   ▶️ YouTube:
-  <a href="https://www.youtube.com/@sj_gameover" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.youtube.com/@shinju_arcade" target="_blank" rel="noopener noreferrer">
   https://www.youtube.com/@sj_gameover
   </a>
 </p>
